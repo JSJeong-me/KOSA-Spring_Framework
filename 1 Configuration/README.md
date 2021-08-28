@@ -70,6 +70,7 @@ https://start.spring.io/
   
     >mvn package
     >java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+    >mvn help:describe -Dcmd=compile
     
   ### Introduction to the Build Lifecycle
   
