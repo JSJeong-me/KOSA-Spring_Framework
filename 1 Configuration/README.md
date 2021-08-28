@@ -29,5 +29,6 @@ https://start.spring.io/
 
    ### Try it
    
-   cd demo
-   mvnw spring-boot:run
+       cd demo
+
+       mvnw spring-boot:run
