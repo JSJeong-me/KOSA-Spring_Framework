@@ -25,7 +25,7 @@ https://start.spring.io/
     
    ### Add your code
     
-<script src="https://gist.github.com/JSJeong-me/4e629a8c7cb383237d9584526265b3b2.js"></script>
+"https://gist.github.com/JSJeong-me/4e629a8c7cb383237d9584526265b3b2.js"
 
    ### Try it
    
