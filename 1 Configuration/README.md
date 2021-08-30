@@ -103,9 +103,34 @@ https://start.spring.io/
         Providing a uniform build system
         Providing quality project information
         Encouraging better development practices
-        
+   
+   
    ### Maven Getting Started Guide
    
         https://maven.apache.org/guides/getting-started/index.html
         
+        
+   ### Spring: Building Java Projects with Maven
 
+        https://spring.io/guides/gs/maven/
+        
+        
+   ### Maven Spring Boot Run  (https://spring.io/guides/gs/maven/#scratch)
+   
+   mkdir -p src/main/java/hello
+   
+   create these two classes: HelloWorld.java & Greeter.java
+   
+   mvn compile
+   
+   mvn package
+   
+   java -jar target/gs-maven-0.1.0.jar
+   
+   
+   ### Spring 시작하기
+
+        https://spring.io/quickstart
+
+        https://start.spring.io/
+   
