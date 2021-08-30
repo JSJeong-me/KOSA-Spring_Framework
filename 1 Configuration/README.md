@@ -117,15 +117,15 @@ https://start.spring.io/
         
    ### Maven Spring Boot Run  (https://spring.io/guides/gs/maven/#scratch)
    
-   mkdir -p src/main/java/hello
-   
-   create these two classes: HelloWorld.java & Greeter.java
-   
-   mvn compile
-   
-   mvn package
-   
-   java -jar target/gs-maven-0.1.0.jar
+       mkdir -p src/main/java/hello
+
+       create these two classes: HelloWorld.java & Greeter.java
+
+       mvn compile
+
+       mvn package
+
+       java -jar target/gs-maven-0.1.0.jar
    
    
    ### Spring 시작하기
