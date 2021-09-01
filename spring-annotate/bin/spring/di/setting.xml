@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	<context:annotation-config />
+	<!-- Exam exam = new NewExam(); -->
+
+	<bean id="exam" class="spring.di.entity.NewExam" p:kor="10" p:eng="10" p:math="10" p:com="10" />
+		
+	
+	<!-- ExamConsol console = new InlineExamConsole(exam); -->
+	<bean id="console" class="spring.di.ui.InlineExamConsole">
+		<!-- <property name="exam" ref="exam" /> -->
+	</bean>
+
+</beans>
