@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Exam exam = new NewExam(); -->
+	<bean id="exam" class="spring.di.entity.NewExam">
+		<property name="kor" value="30" />
+		<property name="eng" value="40" />
+		<property name="math" value="50" />
+		<property name="com" value="65" />
+
+<!-- 		<constructor-arg index="0" value="10" />
+		<constructor-arg index="1" value="11" />
+		<constructor-arg index="2" value="12" />
+		<constructor-arg index="3" value="13" /> -->
+
+<!-- 		<constructor-arg name="kor" value="10" />
+		<constructor-arg name="eng" value="10" />
+		<constructor-arg name="math" value="10" />
+		<constructor-arg name="com" value="10" /> -->
+
+	</bean>
+	<!-- console = new InlineExamConsole(exam); -->
+	<bean id="console" class="spring.di.ui.InlineExamConsole">
+		<property name="exam" ref="exam" />
+	</bean>
+
+
+</beans>
